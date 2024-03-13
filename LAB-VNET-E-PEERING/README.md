@@ -34,3 +34,14 @@
 ![VNET-BRA01](https://github.com/danielmagevski/azure-labs/assets/10622331/f555e78d-ce44-479b-a797-164f29383df3)
 
 ![VNET-BRA01-2](https://github.com/danielmagevski/azure-labs/assets/10622331/9e98623e-e5ed-4ad5-acdb-859a963736fb)
+
+## Criar peering entre VNETs.
+
+* Peering VNET-USA01 -> VNET-BRA01
+
+![PEERING-USA-BRA](https://github.com/danielmagevski/azure-labs/assets/10622331/04746ff5-9651-482f-9c4d-37986819810a)
+
+* Peering VNET-USA01 -> VNET-EUR01
+
+![PEERING-USA-EUR](https://github.com/danielmagevski/azure-labs/assets/10622331/f62ace80-5264-4eb9-9ffe-3efb1d861892)
+
