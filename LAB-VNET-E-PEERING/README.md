@@ -8,8 +8,7 @@
 
 ## Arquitetura do LAB
 
-![arquitetura](https://github.com/danielmagevski/azure-labs/assets/10622331/c6be1faa-7cf6-4daa-b87c-042db14a7efb)
-
+![Arquitetura](https://github.com/danielmagevski/azure-labs/assets/10622331/182fc597-6e07-4949-bd62-4fda465cf388)
 
 ## Criar Resource Group
 ![RG-LAB](https://github.com/danielmagevski/azure-labs/assets/10622331/1a9e338b-5e74-4a19-ade2-7aa63f42b7a9)
