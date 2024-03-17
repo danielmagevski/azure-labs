@@ -29,3 +29,22 @@
 * Associar as subnets da VNET criada
 
 ![NSG-SUBNETS](https://github.com/danielmagevski/azure-labs/assets/10622331/c401c117-28c5-4c58-bebf-9ef241cc1089)
+
+# Crias as VMS
+
+* VM1
+
+* VM2
+
+# Executar o Run command para instalar o ISS
+
+```
+#Install IIS 
+Install-WindowsFeature -name Web-Server -IncludeManagementTools 
+
+#Remove default htm file 
+remove-item C:\inetpub\wwwroot\iisstart.htm
+
+#Add custom htm file 
+Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("LAB Load Balancer  -" + $env:computername)
+```
