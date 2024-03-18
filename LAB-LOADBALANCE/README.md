@@ -7,6 +7,7 @@
 
 ## Arquitetura do LAB
 
+![LAB-LOADBALANCER](https://github.com/danielmagevski/azure-labs/assets/10622331/a376c40f-cf74-4cac-8c94-bfb68ce562ed)
 
 ## Criar Resource Group
 * RG-LAB
