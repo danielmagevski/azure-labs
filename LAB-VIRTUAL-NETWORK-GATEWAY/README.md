@@ -1,4 +1,4 @@
-# Cria uma conexão VPN site to site com Virtual Network Gateway
+# Criar uma conexão VPN site to site com Virtual Network Gateway
 
 &nbsp;
 &nbsp;
