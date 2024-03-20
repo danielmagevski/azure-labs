@@ -1,5 +1,13 @@
-![NGS-RULE](https://github.com/danielmagevski/azure-labs/assets/10622331/c20d8f55-2143-4ccb-ae5a-443e25b36a37)
+# Criar um Application Gateway com multiplos pools backend
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Arquitetura do LAB
+
+![LAB-APPGW](https://github.com/danielmagevski/azure-labs/assets/10622331/06680209-b053-4381-8b6b-f0af4e02415e)
 
 ## Criar Resource Group
 * RG-LAB
@@ -32,7 +40,6 @@
 ![VM-WEB02-2](https://github.com/danielmagevski/azure-labs/assets/10622331/9f6cdb16-97c8-488f-833b-162bd7e20bc4)
 
 ## Instalar o ISS e criar os diretorios via Run Command
-
 * VM-WEB01 e repetior o processo na VM-WEB02
 
 ![RUN-COMMAND](https://github.com/danielmagevski/azure-labs/assets/10622331/48152960-b220-46d7-97a9-7aba6715168c)
@@ -63,3 +70,24 @@ Add-Content -Path "C:\inetpub\wwwroot\video\default.htm" -Value $videovalue
 ![NGS-RULE](https://github.com/danielmagevski/azure-labs/assets/10622331/2fde3d19-f4bd-443d-a6e5-0d810ae7db62)
 
 ## Criar o Application Load Balancer
+* APPGW-WEB01
+![APPGW](https://github.com/danielmagevski/azure-labs/assets/10622331/ebdf360d-f54f-4381-93b6-fe6cd5dc1d58)
+![APPGW2](https://github.com/danielmagevski/azure-labs/assets/10622331/d377e78b-1914-4b10-84e1-9fb59c4e4c80)
+
+* Adicionar Backend Pool
+![APPGW3](https://github.com/danielmagevski/azure-labs/assets/10622331/2ceaa875-f56d-4844-9544-f56f844e2933)
+
+* Adicionar regra de roteamento
+![APPGW4](https://github.com/danielmagevski/azure-labs/assets/10622331/9715073d-3782-4a66-b91a-5830198f675c)
+![APPGW5](https://github.com/danielmagevski/azure-labs/assets/10622331/b537ba88-8b62-4a87-a980-698d1e90f1ca)
+![APPGW6](https://github.com/danielmagevski/azure-labs/assets/10622331/d64dc436-72ed-45a4-a71b-ade9e9c9c140)
+![APPGW7](https://github.com/danielmagevski/azure-labs/assets/10622331/e31dc6d0-a91c-47f9-9eac-38f589acee9a)
+
+* Resumo da criação do Application Load Balancer
+![APPGW8](https://github.com/danielmagevski/azure-labs/assets/10622331/5f027f2c-f394-46e3-8b5d-ddc212d2ec52)
+
+* Adicionar probe para monitorar a saude do backend pool
+![APPGW9](https://github.com/danielmagevski/azure-labs/assets/10622331/0b70f35f-3388-4e0a-85d0-6821ebdf1238)
+
+* Adicionar as regras para IMAGES e VIDEO
+![APPGW10](https://github.com/danielmagevski/azure-labs/assets/10622331/920ac651-c3d5-4cb3-a562-5c1a91b38a0e)
