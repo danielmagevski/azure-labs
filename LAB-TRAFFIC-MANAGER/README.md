@@ -7,6 +7,7 @@
 
 ## Arquitetura do LAB
 
+![traffic-manager](https://github.com/danielmagevski/azure-labs/assets/10622331/02cbf77b-a1e6-422a-94c2-f0e9d12678a3)
 
 ## Criar Resource Group
 * RG-LAB
@@ -28,6 +29,10 @@
 * appdanielmagevskibrazil
 
 ![WEBAPP-BRAZIL](https://github.com/danielmagevski/azure-labs/assets/10622331/6afafc39-fa88-4056-8d0d-2c96890b9e4c)
+
+* appdanielmagevskieastus
+
+![WEBAPPUS](https://github.com/danielmagevski/azure-labs/assets/10622331/bed5d8af-018e-49b2-a0d4-b8e3e8491cfd)
 
 ## Criar o Traffic Manager Profile
 
