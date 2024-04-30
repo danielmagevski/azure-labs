@@ -73,7 +73,7 @@ Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("LAB Load Balancer 
 
 * Adicionar Backend Pool
 
-![BKP-WEB]("https://github.com/danielmagevski/azure-labs/assets/10622331/6b6167c8-92db-4196-ad54-21982bafdb8f")
+![BKP-WEB](https://github.com/danielmagevski/azure-labs/assets/10622331/ec0f46df-3fef-41c7-ad25-29eccd6c1e44")
 
 * Adicionar regra de entrada
 
