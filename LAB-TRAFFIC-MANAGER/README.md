@@ -7,6 +7,8 @@
 
 ## Arquitetura do LAB
 
+![traffic-manager](https://github.com/danielmagevski/azure-labs/assets/10622331/86d91ce4-3268-469e-b63b-21993d777421)
+
 
 ## Criar Resource Group
 * RG-LAB
