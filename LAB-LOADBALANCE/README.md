@@ -85,7 +85,7 @@ Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("LAB Load Balancer 
 
 ## Configurar o NSG para liberar o tráfego no Load Balancer
 
-* Regra para liberar HTTPS
+* Regra para liberar HTTP
 
 ![NSG-RULE](https://github.com/danielmagevski/azure-labs/assets/10622331/a5fe9987-83a2-469b-b7f9-0b2b5ff833ca)
 
